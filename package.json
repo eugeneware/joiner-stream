@@ -1,0 +1,29 @@
+{
+  "name": "joiner-stream",
+  "version": "0.0.1",
+  "description": "node.js stream that joins multiple pipe inputs into a single unified stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/joiner-stream"
+  },
+  "keywords": [
+    "join",
+    "intersect",
+    "aggregate",
+    "aggregator",
+    "stream",
+    "streaming",
+    "streams"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.12.0",
+    "after": "~0.8.1"
+  }
+}
