@@ -10,7 +10,7 @@ describe('joiner stream', function() {
 
     var n = 10;
     var next = after(n, function () {
-      setImmediate(function () {
+      process.nextTick(function () {
         s.emit('end');
       });
     });
@@ -23,7 +23,7 @@ describe('joiner stream', function() {
       };
 
       (function (o) {
-        setImmediate(function () {
+        process.nextTick(function () {
           s.emit('data', o);
           next();
         });

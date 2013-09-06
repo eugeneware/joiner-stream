@@ -1,6 +1,6 @@
 {
   "name": "joiner-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node.js stream that joins multiple pipe inputs into a single unified stream",
   "main": "index.js",
   "scripts": {

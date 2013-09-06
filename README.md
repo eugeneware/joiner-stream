@@ -2,6 +2,8 @@
 
 node.js stream that joins multiple pipe inputs into a single unified stream.
 
+[![build status](https://secure.travis-ci.org/eugeneware/joiner-stream.png)](http://travis-ci.org/eugeneware/joiner-stream)
+
 ## Installation
 
 Install via npm:
